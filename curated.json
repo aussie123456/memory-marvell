@@ -1,0 +1,135 @@
+{
+  "as_of": "2026-11-08",
+  "note": "Hand-maintained figures. Every item carries a source URL. Prices, market caps and multiples on the page come from Yahoo Finance on each refresh and are not in this file.",
+
+  "memory_cycle": {
+    "tiles": [
+      {"l": "DRAM contract prices, 4Q26 forecast", "v": "+10 to 15% q/q", "d": "conventional DRAM; AI server demand, consumer weak", "src": "https://www.trendforce.com/presscenter/news/20260930-13258.html", "src_name": "TrendForce, 30 Sep 2026"},
+      {"l": "NAND flash contract prices, 4Q26 forecast", "v": "+15 to 20% q/q", "d": "enterprise SSD accelerating; PC SSD contained", "src": "https://www.trendforce.com/presscenter/news/20260930-13258.html", "src_name": "TrendForce, 30 Sep 2026"},
+      {"l": "2027 supply view", "v": "DRAM tighter, NAND loosens", "d": "new NAND capacity reverses the balance from 2H27", "src": "https://www.trendforce.com/research/download/RP260727PO", "src_name": "TrendForce, Jul 2026"},
+      {"l": "DRAM industry revenue, 3Q26", "v": "~US$200bn", "d": "+369% y/y; Samsung 38%, SK hynix 29%, Micron 21% share", "src": "https://fourweekmba.com/ai-memory-stocks-fell-up-to-26-while-dram-prices-kept-rising/", "src_name": "Counterpoint via FourWeekMBA, Nov 2026"},
+      {"l": "Micron CY2027 HBM supply", "v": "Vast majority contracted", "d": "at significantly higher y/y prices", "src": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm", "src_name": "Micron 8-K, Sep 2026"},
+      {"l": "SK hynix 2027-28 capacity", "v": ">50% under LTAs", "d": "HBM4 shipments to pass HBM3E in 4Q26; shortage seen to 2030", "src": "https://www.prnewswire.com/news-releases/sk-hynix-announces-3q26-financial-results-302921407.html", "src_name": "SK hynix 3Q26 release, 28 Oct 2026"}
+    ],
+    "selloff": {
+      "title": "Early-November selloff",
+      "text": "Memory names fell 19 to 26% between the 29 Oct close and 6 Nov while contract prices were still rising. Reported drivers: post-midterm rotation out of AI infrastructure after data-centre ballot measures passed restricting new builds, worries about export-approval delays for Korean HBM shipments, and profit-taking after a 5x to 10x year. The table below computes each name's live distance from its 52-week high.",
+      "src": "https://invezz.com/au/news/2026/11/05/micron-sandisk-sk-hynix-plunge-up-to-20percent-as-memory-stocks-selloff-intensifies/",
+      "src_name": "Invezz, 5 Nov 2026"
+    }
+  },
+
+  "results": {
+    "MU": {"label": "FQ4 FY26 (quarter to 3 Sep 2026)", "reported": "2026-09-23", "bullets": [
+      "Revenue US$54.23bn, up from US$41.46bn in FQ3 and US$11.32bn a year earlier; sixth straight record quarter",
+      "GAAP gross margin 87%, up 210 bp q/q; GAAP net income US$37.7bn, EPS US$32.87",
+      "Cloud Memory unit (includes HBM) US$16.3bn, +18% q/q; HBM revenue grew faster than the company",
+      "FY26 revenue US$133.2bn vs US$37.4bn in FY25; FQ1 FY27 gross margin guided at about 86%"
+    ], "src": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm", "src_name": "Micron 8-K press release"},
+    "SKH": {"label": "3Q26 (quarter to 30 Sep 2026)", "reported": "2026-10-28", "bullets": [
+      "Revenue KRW104.6tn, first quarter above KRW100tn; operating profit KRW83.3tn, an 80% margin; net profit KRW39.8tn",
+      "Operating profit +38% q/q and roughly 7x y/y",
+      "HBM4 mass production and shipments began; HBM4 expected to overtake HBM3E in shipments and revenue in 4Q26",
+      "Long-term agreements cover more than half of 2027 and 2028 capacity; about KRW100tn of 2026 shareholder returns planned"
+    ], "src": "https://www.prnewswire.com/news-releases/sk-hynix-announces-3q26-financial-results-302921407.html", "src_name": "SK hynix 3Q26 release"},
+    "SEC": {"label": "3Q26 (quarter to 30 Sep 2026)", "reported": "2026-10-29", "bullets": [
+      "Consolidated revenue KRW195.3tn; operating profit KRW107.4tn, the first KRW100tn+ quarter by a tech company",
+      "Device Solutions (memory + foundry) revenue KRW147.1tn, operating profit KRW106.5tn; Memory Business posted record revenue and profit",
+      "Higher market prices across all applications on server demand and capacity constraints",
+      "Mobile and Networks lost about KRW0.6tn on higher memory costs; shares fell 4.1% on the day"
+    ], "src": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results", "src_name": "Samsung Newsroom"},
+    "SNDK": {"label": "FQ1 FY27 (quarter to 3 Oct 2026)", "reported": "2026-10-29", "bullets": [
+      "Revenue US$11.0bn, +23% q/q, above the US$10.3 to 10.8bn guide; non-GAAP gross margin 85.1%",
+      "Non-GAAP EPS US$49.51 vs US$44 to 46 guided; GAAP net income US$8.1bn",
+      "Data centre revenue US$4.8bn, +61% q/q; adjusted free cash flow US$5.7bn; US$5.1bn cash, no debt; US$5.0bn of buybacks in the quarter",
+      "Shares fell about 8% on the print; FQ2 guide reported as US$12.2 to 12.6bn revenue (verify against the release)"
+    ], "src": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results", "src_name": "Sandisk IR"},
+    "WDC": {"label": "FQ1 FY27 (quarter to early Oct 2026)", "reported": "2026-10-22", "bullets": [
+      "Revenue US$4.38bn, +55% y/y, vs US$4.14bn consensus; EPS US$4.64 vs US$4.11 consensus (aggregator figures, verify against the 8-K)",
+      "Prior-quarter guide had been +42 to 49% y/y, so the print landed above the range"
+    ], "src": "https://www.marketbeat.com/stocks/NASDAQ/WDC/earnings/", "src_name": "MarketBeat (aggregator)"},
+    "STX": {"label": "FQ4 FY26 (quarter to 3 Jul 2026)", "reported": "2026-07-29", "bullets": [
+      "Revenue US$3.6bn; GAAP diluted EPS US$5.58. FQ1 FY27 results not yet captured here"
+    ], "src": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx", "src_name": "Seagate IR"},
+    "KIOXIA": {"label": "Latest quarter", "reported": null, "bullets": ["No curated figures yet; Yahoo Finance fundamentals only"], "src": null, "src_name": null},
+
+    "MRVL": {"label": "Q2 FY27 (quarter to 1 Aug 2026)", "reported": "2026-08-28", "bullets": [
+      "Revenue US$2,739m, +36.5% y/y; data centre US$2,172m (79% of revenue), +46% y/y; communications and other US$568m",
+      "GAAP gross margin 53.1% vs 50.4% a year earlier; 1H operating cash flow US$1,244m; US$400m of buybacks in 1H, US$5.1bn authorisation left",
+      "Cash US$3.93bn; debt US$5.0bn face value including US$1.0bn of 5.300% 2036 notes",
+      "Q3 FY27 guide US$3.15bn plus or minus 5%, non-GAAP EPS US$1.10; on 2 Nov the company said preliminary Q3 revenue is consistent with that midpoint and narrowed the range to plus or minus 2%"
+    ], "src": "https://www.stocktitan.net/sec-filings/MRVL/10-q-marvell-technology-inc-quarterly-earnings-report-f98fc84ed738.html", "src_name": "Marvell 10-Q via StockTitan"},
+    "AVGO": {"label": "FQ3 FY26 (quarter to early Aug 2026)", "reported": "2026-09-04", "bullets": [
+      "Revenue US$29.59bn, +85.5% y/y; AI semiconductor revenue US$16.7bn, +221% y/y and +54% q/q, 56% of revenue",
+      "CEO: supply secured to about double AI revenue again in 2027 to roughly US$115bn"
+    ], "src": "https://247wallst.com/investing/2026/11/06/the-ai-boom-is-creating-a-new-set-of-winners-these-stocks-stand-out/", "src_name": "24/7 Wall St (secondary)"},
+    "ALAB": {"label": "Q3 2026", "reported": "2026-11-04", "bullets": [
+      "Record revenue US$584.9m, +49% q/q and +154% y/y, led by Scorpio switches; GAAP gross margin 72.3%, operating income US$179.1m",
+      "Q4 2026 revenue guided to US$730 to 750m"
+    ], "src": "https://ir.asteralabs.com/news-releases/news-release-details/astera-labs-reports-third-quarter-2026-financial-results", "src_name": "Astera Labs IR"},
+    "CRDO": {"label": "FQ1 FY27 (quarter to early Aug 2026)", "reported": "2026-09-03", "bullets": [
+      "Revenue US$479m, +115% y/y, vs US$470m consensus; FQ2 guided to US$525 to 535m",
+      "Two largest customers were 33% and 28% of revenue; shares fell 17% on the print"
+    ], "src": "https://finance.yahoo.com/technology/ai/articles/credo-vs-astera-labs-ai-144800511.html", "src_name": "Yahoo Finance (secondary)"},
+    "LITE": {"label": "Pending combination with Marvell", "reported": "2026-11-02", "bullets": [
+      "All-stock deal: 4.500 MRVL shares per LITE share, about US$1,132 per share at announcement, a 23.9% premium to the 28 Oct unaffected close",
+      "Lumentum holders to own about 33% of the combined company; close expected 1H CY2028"
+    ], "src": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity", "src_name": "Marvell press release"}
+  },
+
+  "deal": {
+    "acquirer": "MRVL", "target": "LITE", "ratio": 4.5, "ev_b": 115, "implied_px": 1132, "premium_pct": 23.9,
+    "unaffected_date": "2026-10-28", "announced": "2026-11-02", "own_acquirer_pct": 67, "own_target_pct": 33,
+    "synergies": "More than US$1bn annual run-rate cost synergies", "accretion": "Accretive to non-GAAP EPS in year one after close",
+    "close": "1H CY2028, subject to both shareholder votes and regulatory approvals", "tam": "Combined addressable market stated at US$550bn",
+    "collar": "Fixed ratio, no collar: every 1% move in MRVL moves the implied LITE value 1%",
+    "src": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity", "src_name": "Marvell press release, 2 Nov 2026"
+  },
+
+  "mrvl_targets": {
+    "title": "Investor Day, 6 Oct 2026",
+    "rows": [
+      {"k": "FY26 actual", "v": "US$8.2bn revenue, US$6.1bn data centre, about US$1.5bn custom"},
+      {"k": "FY28 outlook", "v": "about US$20bn revenue (+67%); data centre about US$18bn (+80%), a year earlier than the prior FY29 target"},
+      {"k": "Custom silicon", "v": "more than US$12bn in FY29 (triple FY28); about US$30bn at the FY31 midpoint"},
+      {"k": "FY31 outlook", "v": "US$70 to 90bn revenue; interconnect ~US$37.5bn, custom ~US$30bn, switching and storage ~US$10bn at midpoints"},
+      {"k": "Addressable market", "v": "about US$400bn by 2030 (45% CAGR), 4x the prior estimate; custom ~US$235bn, switching and storage ~US$85bn, interconnect ~US$65bn"},
+      {"k": "Customers", "v": "shipping custom silicon to all four US hyperscalers; more than 35 sockets at the top four; agreements with AWS, Nvidia and Google (US$120bn over 6.5 years)"}
+    ],
+    "src": "https://stockanalysis.com/stocks/mrvl/transcripts/724088-investor-day-2026/", "src_name": "Investor Day transcript"
+  },
+
+  "bull": [
+    {"t": "Custom silicon is compounding, not optional", "d": "Custom XPU revenue went from about US$1.5bn in FY26 to a target above US$12bn in FY29 and about US$30bn by FY31, with silicon shipping to all four US hyperscalers and more than 35 sockets at the top four. Hyperscalers want a credible second source to Broadcom, and Marvell is the only scaled one.", "src": "https://stockanalysis.com/stocks/mrvl/transcripts/724088-investor-day-2026/", "src_name": "Investor Day, Oct 2026"},
+    {"t": "Guidance keeps rising while the stock fell", "d": "FY28 revenue is guided to about US$20bn (+67%) with data centre about US$18bn, pulled forward a year. Q3 FY27 revenue of about US$3.15bn was reconfirmed on 2 Nov with a narrower range. The share price roughly halved in a month on deal and macro worries, not on operating news.", "src": "https://247wallst.com/investing/2026/11/05/marvell-just-dropped-49-in-a-month-is-mrvl-stock-hopeless-or-ready-for-a-rebound/", "src_name": "24/7 Wall St, 5 Nov 2026"},
+    {"t": "Optics is the next bottleneck and Marvell is buying the laser", "d": "Scale-up and scale-across fabrics are moving from copper to optics. Marvell already leads 800G and 1.6T PAM4 DSPs and coherent pluggables (US$0.5bn going to more than US$1bn by FY28). Lumentum adds indium-phosphide lasers, transceivers and optical circuit switching, with more than US$1bn of run-rate synergies and year-one EPS accretion.", "src": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity", "src_name": "Marvell, 2 Nov 2026"},
+    {"t": "Anchored to the biggest spenders", "d": "Strategic agreements with AWS, Nvidia (custom XPUs plus NVLink Fusion scale-up networking, Mar 2026) and Google (a stated US$120bn opportunity over 6.5 years). Management says no single socket will dominate by FY31, which answers the Trainium concentration worry.", "src": "https://finance.yahoo.com/news/mrvls-custom-silicon-business-scales-135700350.html", "src_name": "Yahoo Finance"},
+    {"t": "The market is pricing the dilution, not the earnings power", "d": "Lumentum holders get about 33% of the combined company at a fixed 4.5 ratio. Because MRVL fell after announcement, the implied price is now below LITE's unaffected level, so Marvell is paying less in value terms than the headline US$115bn. Rosenblatt kept a Buy with a US$300 target; most covering analysts still rate the stock a Buy.", "src": "https://247wallst.com/investing/2026/11/05/marvells-115-billion-deal-has-lost-more-than-a-third-of-its-value/", "src_name": "24/7 Wall St, 5 Nov 2026"},
+    {"t": "Memory is the read-across", "d": "Micron, SK hynix and Samsung just printed record quarters with HBM supply sold out into 2027. Every HBM stack and every XPU needs more SerDes, more switching and more optics per dollar of compute, which is Marvell's content story.", "src": "https://www.prnewswire.com/news-releases/sk-hynix-announces-3q26-financial-results-302921407.html", "src_name": "SK hynix, 28 Oct 2026"}
+  ],
+  "bear": [
+    {"t": "All-stock deal with no collar", "d": "A fixed 4.5 ratio hands Lumentum holders 33% of the company and the close is not until 1H CY2028. TD Cowen cut to Hold with a US$175 target, arguing the deal lands near an optical demand peak and the two firms did not need to merge to collaborate.", "src": "https://247wallst.com/investing/2026/11/05/marvell-just-dropped-49-in-a-month-is-mrvl-stock-hopeless-or-ready-for-a-rebound/", "src_name": "24/7 Wall St, 5 Nov 2026"},
+    {"t": "Custom silicon is a knife fight on margin", "d": "Broadcom holds roughly 60 to 70% of custom AI ASICs. MediaTek has won multi-generation programs, and Alchip and GUC are pressuring XPU design margins. Marvell's share is estimated around 15%, and programs are lumpy and few.", "src": "https://futurumgroup.com/insights/marvell-q2-fy-2026-earnings-data-center-growth-healthy-but-overshadowed-by-rising-competition/", "src_name": "Futurum"},
+    {"t": "Concentration and geography", "d": "Data centre is 79% of revenue and a handful of hyperscalers drive it. Shipments billed to China were 42% of Q2 FY27 revenue by destination, and one distributor was more than a third of sales.", "src": "https://www.stocktitan.net/sec-filings/MRVL/10-q-marvell-technology-inc-quarterly-earnings-report-f98fc84ed738.html", "src_name": "Marvell 10-Q"},
+    {"t": "Capex politics", "d": "Data-centre ballot measures passed on 3 Nov restricting new builds in several jurisdictions, and AI infrastructure names sold off hard the next two sessions. Any slowdown in hyperscaler capex hits Marvell's FY28 to FY31 targets directly.", "src": "https://invezz.com/au/news/2026/11/05/micron-sandisk-sk-hynix-plunge-up-to-20percent-as-memory-stocks-selloff-intensifies/", "src_name": "Invezz, 5 Nov 2026"}
+  ],
+  "watch": [
+    {"t": "Q3 FY27 results", "d": "Expected early December 2026 (last year's Q3 was 2 Dec; date not yet confirmed). Revenue is pre-announced at about US$3.15bn; the tell is custom revenue acceleration into 2H and the Q4 guide against the US$3bn+ exit run-rate."},
+    {"t": "Lumentum spread", "d": "The deal monitor above compares 4.5x MRVL with LITE's price live. A widening discount signals doubt about the vote or the ratio."},
+    {"t": "Broadcom FQ4 (Dec) and hyperscaler capex guides (late Jan)", "d": "Read-through for custom ASIC share and 2027 optics volumes."},
+    {"t": "Memory prints", "d": "Micron FQ1 FY27 in late December; TrendForce 1Q27 contract-price outlook in December. DRAM tightness supports the HBM-to-XPU content thesis; a NAND rollover is the first cycle crack to watch."}
+  ],
+
+  "competitor_notes": {
+    "AVGO": "Custom ASIC leader (Google TPU, Meta, OpenAI); ~60 to 70% share estimates; Tomahawk switching and optics DSPs overlap Marvell directly",
+    "ALAB": "PCIe/CXL retimers and Scorpio switches; connectivity rather than custom compute",
+    "CRDO": "Active electrical cables and optical DSPs; the copper alternative to Marvell's optics",
+    "NVDA": "Merchant GPU incumbent; NVLink Fusion partnership (Mar 2026) makes Nvidia both partner and competitor",
+    "AMD": "Merchant GPU challenger; benchmark for custom-vs-merchant share debate",
+    "MTK": "Rising custom ASIC challenger; reported multi-generation hyperscaler wins",
+    "ALCHIP": "Taiwan ASIC design service; price competition on XPU programs",
+    "GUC": "TSMC-affiliated ASIC design service; same pressure point as Alchip",
+    "LITE": "Merger target; lasers, transceivers and optical circuit switching",
+    "COHR": "Optical components peer; rose on the deal announcement as the independent alternative"
+  }
+}
