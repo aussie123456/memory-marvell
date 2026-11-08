@@ -2,6 +2,7 @@
 
 Single-file dashboard covering memory and storage stocks (Micron, SK hynix, Samsung, Sandisk, Western Digital, Kioxia, Seagate) and Marvell against its custom-silicon, connectivity and optics competitors (Broadcom, Astera Labs, Credo, NVIDIA, AMD, MediaTek, Alchip, Global Unichip, Lumentum, Coherent). Built and published by GitHub Actions with no dependency on Claude. Same pipeline as the IREN Markets Desk.
 
+- Live page: https://aussie123456.github.io/memory-marvell/ (repo https://github.com/aussie123456/memory-marvell)
 - Manual refresh: Actions tab > **Refresh dashboard** > **Run workflow**. The page's own **Refresh data** button opens that screen. Allow 3 to 5 minutes.
 - Scheduled refresh: daily at 22:00 UTC (9:00am Sydney during daylight saving). See the cron note in `.github/workflows/refresh.yml` for the April DST change.
 
